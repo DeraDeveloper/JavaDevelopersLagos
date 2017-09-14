@@ -15,7 +15,6 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.example.seamfix.javadeveloperslagos.R;
-import com.squareup.picasso.Picasso;
 
 import java.net.URL;
 
@@ -31,7 +30,7 @@ public class ProfileActivity extends AppCompatActivity{
     Toolbar mActionBarToolbar;
     CircleImageView imageView;
 
-
+    //sets the profile image, link and username gottten from api into the Profile Activity
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
@@ -50,8 +49,7 @@ public class ProfileActivity extends AppCompatActivity{
 
         Username.setText(username);
 
-        //Glide.with(this)
-        Picasso.with(this)
+        Glide.with(this)
                 .load(avatarUrl)
                 .placeholder(R.drawable.loading)
                 .into(imageView);
@@ -59,6 +57,7 @@ public class ProfileActivity extends AppCompatActivity{
         getSupportActionBar().setTitle("Profile Activity");
     }
 
+    //intent for sharing the user's details
     private Intent createShareForcstIntent(){
         String username = getIntent().getExtras().getString("login");
         String link = getIntent().getExtras().getString("html_url");
@@ -69,6 +68,7 @@ public class ProfileActivity extends AppCompatActivity{
         return shareIntent;
     }
 
+    //inflating the menu item and calling the share intent
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater inflater  = getMenuInflater();

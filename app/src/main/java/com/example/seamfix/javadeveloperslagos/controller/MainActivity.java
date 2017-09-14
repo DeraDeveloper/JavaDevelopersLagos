@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
     ProgressDialog pd;
     private SwipeRefreshLayout swipeContainer;
 
+    //set view to activity_main.xml once appplication sarts and call the initViews() method
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,8 +43,9 @@ public class MainActivity extends AppCompatActivity {
 
         initViews();
 
+        //initializing swipeContainer and calling the onRefresh() method
         swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
-        swipeContainer.setColorSchemeResources(android.R.color.holo_orange_dark);
+        swipeContainer.setColorSchemeResources(android.R.color.holo_purple);
         swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener(){
             @Override
             public void onRefresh(){
@@ -52,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    //the progress dialog is displayed while fetching data from the loadJSON() method
     private void initViews(){
         pd = new ProgressDialog(this);
         pd.setMessage("fetching users .....");

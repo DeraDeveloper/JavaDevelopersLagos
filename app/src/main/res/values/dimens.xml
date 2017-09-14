@@ -2,20 +2,17 @@
 <resources>
     <dimen name="text_size_small">30sp</dimen>
     <dimen name="text_size_medium">30sp</dimen>
-    <dimen name="text_size_large">30sp</dimen>
-    <dimen name="margin_top_size_small">30sp</dimen>
-    <dimen name="margin_top_size_medium">30sp</dimen>
-    <dimen name="margin_top_size_large">30sp</dimen>
-    <dimen name="margin_bottom_size_small">30sp</dimen>
-    <dimen name="margin_bottom_size_medium">30sp</dimen>
-    <dimen name="margin_bottom_size_large">30sp</dimen>
-    <dimen name="margin_right_size_small">30sp</dimen>
-    <dimen name="margin_right_size_medium">30sp</dimen>
-    <dimen name="margin_right_size_large">30sp</dimen>
-    <dimen name="margin_left_size_small">30sp</dimen>
-    <dimen name="margin_left_size_medium">30sp</dimen>
-    <dimen name="margin_left_size_large">30sp</dimen>
-    <dimen name="card_elevation">30sp</dimen>
+    <dimen name="text_size_link">15sp</dimen>
+    <dimen name="margin_size_extra_small">4dp</dimen>
+    <dimen name="margin_size_small">10dp</dimen>
+    <dimen name="margin_size_medium">20dp</dimen>
+    <dimen name="margin_size_large">30sp</dimen>
+    <dimen name="card_elevation">60dp</dimen>
+    <dimen name="card_margin">10dp</dimen>
+    <dimen name="civ_layout_dimension">100dp</dimen>
+    <dimen name="civ_layout_dimension_large">400dp</dimen>
+    <dimen name="civ_border_width">2dp</dimen>
+
 
 
 </resources>
