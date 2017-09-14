@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_small">30sp</dimen>
+    <dimen name="text_size_medium">30sp</dimen>
+    <dimen name="text_size_large">30sp</dimen>
+    <dimen name="margin_top_size_small">30sp</dimen>
+    <dimen name="margin_top_size_medium">30sp</dimen>
+    <dimen name="margin_top_size_large">30sp</dimen>
+    <dimen name="margin_bottom_size_small">30sp</dimen>
+    <dimen name="margin_bottom_size_medium">30sp</dimen>
+    <dimen name="margin_bottom_size_large">30sp</dimen>
+    <dimen name="margin_right_size_small">30sp</dimen>
+    <dimen name="margin_right_size_medium">30sp</dimen>
+    <dimen name="margin_right_size_large">30sp</dimen>
+    <dimen name="margin_left_size_small">30sp</dimen>
+    <dimen name="margin_left_size_medium">30sp</dimen>
+    <dimen name="margin_left_size_large">30sp</dimen>
+    <dimen name="card_elevation">30sp</dimen>
+
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/swipeContainer" >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:showIn="@layout/activity_main"
+        android:backgroundTint="@color/colorbackgroundTint"
+        android:background="@color/colorAppBackground"
+        tools:context=".controller.MainActivity"
+        tools:listitem="@layout/developer_item"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/disconnected"
+        android:text="@string/internet"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textStyle="bold" />
+
+</android.support.v4.widget.SwipeRefreshLayout>

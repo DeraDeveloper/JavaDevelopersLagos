@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Java Developers Lagos</string>
+    <string name="internet">No internet connection, Please make sure your device is connected</string>
+    <string name="title">share</string>
+</resources>
