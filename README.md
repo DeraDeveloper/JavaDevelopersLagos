@@ -1,25 +1,25 @@
 # JavaDevelopersLagos
 An android application that consumes github api for java developers in Lagos.
 
-![MainActivity](https://raw.github.com/DeraDeveloper/JavaDevelopersLagos/blob/f03838b6de76d5f25d64a4067be444cfa510baa5/Screenshots/MainActivity.png)
+![Main Activity](Screenshots/MainActivity.png)
 
 
-![MainActivity](https://raw.github.com/DeraDeveloper/JavaDevelopersLagos/blob/f03838b6de76d5f25d64a4067be444cfa510baa5/Screenshots/MessageReceived.png)
+![Received Intent](Screenshots/MessageReceived.png)
 
 
-![MainActivity](https://raw.github.com/DeraDeveloper/JavaDevelopersLagos/blob/f03838b6de76d5f25d64a4067be444cfa510baa5/Screenshots/MessageSent.png)
+![Sending Intent](Screenshots/MessageSent.png)
 
 
-![MainActivity](https://raw.github.com/DeraDeveloper/JavaDevelopersLagos/blob/f03838b6de76d5f25d64a4067be444cfa510baa5/Screenshots/ProfileActivity.png)
+![Profile Activity](Screenshots/ProfileActivity.png)
 
 
-![MainActivity](https://raw.github.com/DeraDeveloper/JavaDevelopersLagos/blob/f03838b6de76d5f25d64a4067be444cfa510baa5/Screenshots/ProgressDialog.png)
+![Progress Dialog](Screenshots/ProgressDialog.png)
 
 
-![MainActivity](https://raw.github.com/DeraDeveloper/JavaDevelopersLagos/blob/f03838b6de76d5f25d64a4067be444cfa510baa5/Screenshots/Refreshing.png)
+![Refreshing the Layout](Screenshots/Refreshing.png)
 
 
-![MainActivity](https://raw.github.com/DeraDeveloper/JavaDevelopersLagos/blob/f03838b6de76d5f25d64a4067be444cfa510baa5/Screenshots/ShareIntent.png)
+![share Intent action](Screenshots/ShareIntent.png)
 
-![MainActivity](https://raw.github.com/DeraDeveloper/JavaDevelopersLagos/blob/f03838b6de76d5f25d64a4067be444cfa510baa5/Screenshots/ShareIntentMessage.png)
+![Share intent Message](Screenshots/ShareIntentMessage.png)
 
