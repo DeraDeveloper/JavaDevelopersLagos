@@ -15,6 +15,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.example.seamfix.javadeveloperslagos.R;
+import com.squareup.picasso.Picasso;
 
 import java.net.URL;
 
@@ -49,7 +50,7 @@ public class ProfileActivity extends AppCompatActivity{
 
         Username.setText(username);
 
-        Glide.with(this)
+        Picasso.with(this)
                 .load(avatarUrl)
                 .placeholder(R.drawable.loading)
                 .into(imageView);

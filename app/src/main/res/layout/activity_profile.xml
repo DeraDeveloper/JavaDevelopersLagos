@@ -46,7 +46,7 @@
         android:layout_marginTop="@dimen/margin_size_small"
         android:src="@drawable/ic_link_address"
         android:layout_below="@id/username" />
-    <!--<TextView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/link"
@@ -59,6 +59,6 @@
         android:textStyle="bold"
         android:textSize="@dimen/text_size_link"
         android:paddingTop="6dp"
-        android:layout_below="@id/username" />-->
+        android:layout_below="@id/username" />
 
 </RelativeLayout>
