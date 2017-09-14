@@ -1,7 +1,7 @@
 # JavaDevelopersLagos
 An android application that consumes github api for java developers in Lagos.
 
-![Main Activity](Screenshots/MainActivity.png)
+![Main Activity](Screenshots/MainActivity.png =250x)
 
 
 ![Received Intent](Screenshots/MessageReceived.png)
