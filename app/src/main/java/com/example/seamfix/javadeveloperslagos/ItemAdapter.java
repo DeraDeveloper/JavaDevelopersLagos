@@ -17,9 +17,6 @@ import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-/**
- * Created by SEAMFIX on 9/12/2017.
- */
 
 public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder> {
     private List<Item> items;
@@ -28,6 +25,11 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder> {
     public ItemAdapter(Context applicationContext, List<Item> itemArrayList) {
         this.context = applicationContext;
         this.items = itemArrayList;
+    }
+
+    public void setItems(List<Item> items) {
+        this.items = items;
+        notifyDataSetChanged();
     }
 
     @Override
@@ -63,10 +65,11 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder> {
             imageView = (CircleImageView) view.findViewById(R.id.cover);
 
             //on item click
-            itemView.setOnClickListener(new View.OnClickListener(){@Override
-                public void onClick(View v){
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
                     int pos = getAdapterPosition();
-                    if(pos != RecyclerView.NO_POSITION){
+                    if (pos != RecyclerView.NO_POSITION) {
                         Item clickedDataItem = items.get(pos);
                         Intent intent = new Intent(context, ProfileActivity.class);
                         intent.putExtra("login", items.get(pos).getLogin());

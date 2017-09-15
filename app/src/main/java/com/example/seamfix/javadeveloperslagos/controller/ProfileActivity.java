@@ -10,21 +10,13 @@ import android.text.util.Linkify;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
 import com.example.seamfix.javadeveloperslagos.R;
 import com.squareup.picasso.Picasso;
 
-import java.net.URL;
-
 import de.hdodenhof.circleimageview.CircleImageView;
-import retrofit2.http.Url;
 
-/**
- * Created by SEAMFIX on 9/12/2017.
- */
 
 public class ProfileActivity extends AppCompatActivity{
     TextView Link, Username;

@@ -3,9 +3,7 @@ package com.example.seamfix.javadeveloperslagos.model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by SEAMFIX on 9/12/2017.
- */
+
 
 public class Item {
     @SerializedName("login")
